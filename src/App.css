@@ -1,0 +1,83 @@
+.content-text{
+  color:#888888
+}
+
+.button-active{
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color:#222222;
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  color:#222222;
+  margin: 4px 4px;
+}
+
+.button-inactive{
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color: #CCCCCC;
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  color:#888888;
+  margin: 4px 4px;
+}
+
+.button-add-to-cart{
+  border-style: solid;
+  border-color:#222222;
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  margin: 4px 4px;
+  transition: 0.2s
+}
+
+.button-add-to-cart:hover{
+  background-color: #222222;
+  color:white
+}
+
+input{
+  visibility: hidden;
+  display: none;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  img{
+    width:300px;
+  }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  img{
+    width:300px;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  img{
+    width:400px;
+  }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  img{
+    width:400px;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  img{
+    width:450px;
+  }
+ }
